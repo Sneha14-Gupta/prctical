@@ -1,0 +1,40 @@
+@font-face {
+    font-family: nike future;
+    src: url(https://www.nike.com/static/ncss/4.2/dotcom/fonts/Nike-TG.woff2);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    color: white;
+    font-size: 80px;
+    font-family: nike future;
+    border: 7px solid rgb(31, 30, 30);
+
+
+}
+.left,.right{
+    width: 50%;
+    background-color: red;
+    background-position: center;
+    filter: grayscale(3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left{
+    background-image: url(left.png);
+}
+.right{
+    background-color: blueviolet;
+    background-image: url(right.png);
+}
